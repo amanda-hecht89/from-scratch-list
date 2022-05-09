@@ -10,3 +10,7 @@ export function renderPets(pets) {
 
     const p = document.createElement('p');
     p.textContent = `${pets.name} is ${pets.age} and is a ${pets.breed}`;
+
+    div.append(h1, img, p,);
+    return div;
+}
