@@ -1,6 +1,6 @@
 // import functions and grab DOM elements
-import { pets } from './pets/pets';
-import { renderPets } from './utils';
+import { pets } from './pets.js';
+import { renderPets } from './utils.js';
 
 const petsEl = document.getElementById('pets');
 // let state
@@ -12,4 +12,5 @@ const petsEl = document.getElementById('pets');
 for (let pet of pets) {
     const petsdiv = renderPets(pet);
     petsEl.append(petsdiv);
+
 }    

@@ -14,3 +14,8 @@ export function renderPets(pets) {
     div.append(h1, img, p,);
     return div;
 }
+
+//findbyID
+export function findById(id, data) {
+    return data.find((item) => item.id === id);
+}
