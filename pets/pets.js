@@ -11,5 +11,8 @@ const paragraph = document.getElementById('para');
 const animalName = document.getElementById('name');
 animalName.textContent = animal.name;
 
-image.src = `../assets/${animal.imgage}.svg`;
-paragraph.textContent = animal.says;
+image.src = `../assets/${animal.image}.jpeg`;
+paragraph.textContent = animal.breed;
+
+
+//

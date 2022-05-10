@@ -1,14 +1,15 @@
 export const pets = [
     {
+        id: '1',
         name: 'Arya',
         age: 7,
         breed: 'CoonHound',
-        image: './assets/Arya.jpeg',
+        image: 'arya',
     },
 
-    { name:'Boulder', age: 3, breed: 'Pit-mix', image: './assets/Boulder.jpeg' },
-    { name:'Crowley', age: 5, breed: 'Red-Earred-Slider', image: './assets/Crowley.jpeg' },
-    { name:'Alfred', age: 5, breed: 'Plecco', image: './assets/Alfred.jpeg' },
+    { id: '2', name:'Boulder', age: 3, breed: 'Pit-mix', image: 'boulder' },
+    { id: '3', name:'Crowley', age: 5, breed: 'Red-Earred-Slider', image: './assets/Crowley.jpeg' },
+    { id: '4', name:'Alfred', age: 5, breed: 'Plecco', image: './assets/Alfred.jpeg' },
 
 ];
 
