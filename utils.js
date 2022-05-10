@@ -16,6 +16,7 @@ export function renderPets(pets) {
     p.textContent = `${pets.name} is ${pets.age} and is a ${pets.breed}`;
 
     a.append(h1, img, p,);
+    div.append(a);
     return div;
 }
 
