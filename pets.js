@@ -8,8 +8,8 @@ export const pets = [
     },
 
     { id: '2', name:'Boulder', age: 3, breed: 'Pit-mix', image: 'boulder' },
-    { id: '3', name:'Crowley', age: 5, breed: 'Red-Earred-Slider', image: './assets/Crowley.jpeg' },
-    { id: '4', name:'Alfred', age: 5, breed: 'Plecco', image: './assets/Alfred.jpeg' },
+    { id: '3', name:'Crowley', age: 5, breed: 'Red-Earred-Slider', image: 'crowley' },
+    { id: '4', name:'Alfred', age: 5, breed: 'Plecco', image: 'alfred' },
 
 ];
 

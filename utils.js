@@ -10,6 +10,7 @@ export function renderPets(pets) {
 
     const img = document.createElement('img');
     img.src = `../assets/${pets.image}.jpeg`;
+    img.classList.add('image');
 
     const p = document.createElement('p');
     p.textContent = `${pets.name} is ${pets.age} and is a ${pets.breed}`;
