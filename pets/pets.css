@@ -1,6 +1,13 @@
-.img {
-    height: 400px;
-margin-left: 35%;
+#img {
+    height: 350px;
+}
+
+#img2 {
+    height: 350px;
+}
+
+#img3 {
+    height: 350px;
 }
 
 .borderimg {

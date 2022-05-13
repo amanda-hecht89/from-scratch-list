@@ -7,11 +7,15 @@ const param = new URLSearchParams(window.location.search);
 const animal = findById(param.get('id'), pets);
 
 const image = document.getElementById('img');
+const image2 = document.getElementById('img2');
+const image3 = document.getElementById('img3');
 const paragraph = document.getElementById('para');
 const animalName = document.getElementById('name');
 animalName.textContent = animal.name;
 
 image.src = `../assets/${animal.image}.jpeg`;
+image2.src = `../assets/${animal.image2}.jpeg`;
+image3.src = `../assets/${animal.image3}.jpeg`;
 paragraph.textContent = animal.breed;
 
 
