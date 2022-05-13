@@ -5,7 +5,7 @@ margin-left: 35%;
 
 .borderimg {
     border-image: url("../assets/OxXE5H.jpg") 20 round;
-    border-width: 15px;
+    border-width: 20px;
     border-style: solid;
 }
 
