@@ -1,9 +1,9 @@
 .img {
-    height: 400px;
+    height: 200px;
 }
 
 .borderimg {
-    border-image: url("../assets/paws.jpg") 30 round;
+    border-image: url("../assets/OxXE5H.jpg") 20 round;
     border-width: 20px;
     border-style: solid;
 }
