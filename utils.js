@@ -19,6 +19,15 @@ export function renderPets(pets) {
     const img3 = document.createElement('img3');
     img.src = `../assets/${pets.image3}.jpeg`;
     img.classList.add('image3');
+
+    const img4 = document.createElement('img4');
+    img.src = `../assets/${pets.image4}.jpeg`;
+    img.classList.add('image4');
+
+    const img5 = document.createElement('img5');
+    img.src = `../assets/${pets.image5}.jpeg`;
+    img.classList.add('image5'); 
+
     
     const p = document.createElement('p');
     p.textContent = `${pets.name} is ${pets.age} and is a ${pets.breed}`;

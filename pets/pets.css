@@ -10,6 +10,14 @@
     height: 350px;
 }
 
+#img4 {
+    height: 350px;
+}
+
+#img5 {
+    height: 350px;
+}
+
 .borderimg {
     border-image: url("../assets/OxXE5H.jpg") 20 round;
     border-width: 20px;
