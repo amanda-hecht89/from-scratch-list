@@ -1,4 +1,9 @@
 .img {
-    height: 500px;
-    border: 3px solid red;
+    height: 400px;
+}
+
+.borderimg {
+    border-image: url("../assets/paws.jpg") 30 round;
+    border-width: 20px;
+    border-style: solid;
 }
