@@ -1,0 +1,48 @@
+#img {
+    height: 350px;
+}
+
+#img2 {
+    height: 350px;
+}
+
+#img3 {
+    height: 350px;
+}
+
+#img4 {
+    height: 350px;
+}
+
+#img5 {
+    height: 350px;
+}
+
+.borderimg {
+    border-image: url("../assets/OxXE5H.jpg") 20 round;
+    border-width: 20px;
+    border-style: solid;
+}
+
+h1 {
+    color: steelblue;
+    background-color: bisque;
+    text-align: center;
+}
+
+a {
+    font-size: x-large;
+    color: steelblue;
+}
+
+p {
+    color: steelblue;
+    font-size: xx-large;
+    text-align: center;
+    background-color: bisque;
+}
+
+div {
+    background-image: url(https://www.desktopbackground.org/download/1920x1200/2013/12/28/692397_abstract-wallpaper-pastel-tie-dye-images-wallpapers-for-desktop_2000x1600_h.jpg);
+}
+
